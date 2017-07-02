@@ -21,9 +21,9 @@ Input/Output
 
 * __[input]__ string time_str
 
-The time in the hh:mm format.
-It is guaranteed that `1 ≤ hh ≤ 12, and 0 ≤ mm ≤ 59`.
+    The time in the hh:mm format.
+    It is guaranteed that `1 ≤ hh ≤ 12, and 0 ≤ mm ≤ 59`.
 
 * __[output]__ string
 
-time_str in common English.
+    time_str in common English.
