@@ -21,20 +21,3 @@ def thefather(haters):
             break
 
     return status
-
-haters=["Willia_Faircloth Jenee_Platero",
- "Jenee_Platero Dennis_Lukes",
- "Vanessa_Alward Colby_Leeds",
- "Retta_Hedberg Dirk_Spires",
- "Inell_Izzard Fernanda_Chappel",
- "Colby_Leeds Berta_Wittig",
- "Fernanda_Chappel Berta_Wittig",
- "Sidney_Whitlock Saundra_Cozad",
- "Lavonda_Frederickson Retta_Hedberg",
- "Jenee_Platero Christal_Pippin",
- "Dirk_Spires Retta_Hedberg",
- "Lilly_Hamp Johnathon_Arpin",
- "Saundra_Cozad Fern_Grunwald",
- "Lesa_Barnhouse Fern_Grunwald"]
-
-print thefather(haters)
