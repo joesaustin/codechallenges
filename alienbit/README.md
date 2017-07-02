@@ -17,10 +17,15 @@ Example
     The alien bit can be split into 6 ASCII symbols:
 
     `116 -> 't'`
+    
     `101 -> 'e'`
+    
     `115 -> 's'`
+    
     `116 -> 't'`
+    
     `35 -> '#'`
+    
     `49 -> '1'`
     
     Thus, this alien transmission contains the message "test#1".
@@ -34,7 +39,8 @@ Input/Output
     A string that represents a number between 0 and 1, with the number of decimal places divisible by 3.
 
     Guaranteed constraints:
-    5 ≤ abit.length ≤ 1001.
+    
+    `5 ≤ abit.length ≤ 1001.`
 
 * __[output]__ string
 
