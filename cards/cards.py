@@ -9,5 +9,3 @@ def cards(n):
             deck.append("{}{}".format(num,suit))
 
     return deck[n]
-
-print cards(34)
