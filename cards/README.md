@@ -12,24 +12,20 @@ the rank and the second character representing the suit.
 Example
 ---------
 * __For__ `n = 0`, the output should be
-`cards(n) = "2C"`.
-
+`cards(n) = "2C"`.<br/>
     The very first card in the deck is 2 of clubs, so the answer is `"2C"`.
 
 * __For__ `n = 34`, the output should be
-`cards(n) = "OH"`.
-
+`cards(n) = "OH"`.<br/>
     The `34th` card in the deck is 10 of hearts, making the answer `"0H"`.
 
 Input/Output
 -------------
 * __[time limit]__ 4000ms (py)
 
-* __[input]__ integer n
-
-    Guaranteed constraints:
+* __[input]__ integer n <br/>
+    Guaranteed constraints: <br/>
     `0 ≤ n ≤ 51.`
 
-* __[output]__ string
-
+* __[output]__ string <br/>
     A string with a length of 2, representing the nth card in the deck in the format described above.
