@@ -4,7 +4,6 @@ def cards(n):
     deck=[]
 
     for suit in suits:
-        #print suit
         for num in numbers:
             deck.append("{}{}".format(num,suit))
 
