@@ -7,26 +7,22 @@ occurrence of the other number does. If there are no such elements, return -1.
 
 Example
 ---------
-
 * __For__ `a = [2, 3, 3, 1, 5, 2]`, the output should be `firstDuplicate(a) = 3`.
 
-    There are 2 duplicates: numbers 2 and 3. The second occurrence of 3 has a 
-    smaller index than the second occurrence of 2 does, so the answer is 3.
+    There are 2 duplicates: numbers `2` and `3`. The second occurrence of `3` has a 
+    smaller index than the second occurrence of `2` does, so the answer is `3`.
 
-* __For__ 'a = [2, 4, 3, 5, 1],' the output should be
+* __For__ `a = [2, 4, 3, 5, 1]`, the output should be
 `firstDuplicate(a) = -1`.
 
 Input/Output
 -------------
-
 * __[time limit]__ 4000ms (py)
 
 * __[input]__ array.integer a
 
-    Guaranteed constraints:
-    
-    `1 ≤ a.length ≤ 105`,
-    
+    Guaranteed constraints:<br/>
+    `1 ≤ a.length ≤ 105`,<br/>
     `1 ≤ a[i] ≤ a.length`.
 
 * __[output]__ integer
