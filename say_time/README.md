@@ -19,11 +19,9 @@ Input/Output
 -------------
 * __[time limit]__ 4000ms (py)
 
-* __[input]__ string time_str
-
+* __[input]__ string time_str<br/>
     The time in the hh:mm format.
     It is guaranteed that `1 ≤ hh ≤ 12, and 0 ≤ mm ≤ 59`.
 
-* __[output]__ string
-
+* __[output]__ string<br/>
     time_str in common English.
