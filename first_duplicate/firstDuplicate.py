@@ -16,6 +16,3 @@ def firstDuplicate(a):
         return -1
     else:
         return a[first_dup]
-
-numbers = [2, 3, 3, 1, 5, 2]
-print firstDuplicate(numbers)
