@@ -22,9 +22,7 @@ Example
           "Fake_Thomas_Jefferson Fury_Leika", 
           "Fury_Leika Dead_Bowie"]`
 
-    the output should be
-`theFather(haters) = false.`
-
+    The output should be `theFather(haters) = false.`<br/>
     There's no way to split the haters into two groups as Father wants.
 
 Input/Output
@@ -37,12 +35,9 @@ Input/Output
     An array of pairs of family members who hate one another and can't be put into one group. Each pair is given as a
 string, with the two names separated by a single whitespace character. It is guaranteed that no person hates themselves.
 
-    Guaranteed constraints:
-    
-    `1 ≤ haters.length ≤ 13000,`
-    
+    Guaranteed constraints:<br/>
+    `1 ≤ haters.length ≤ 13000,`<br/>
     `3 ≤ haters[i].length ≤ 100.`
 
-* __[output]__ boolean
-
+* __[output]__ boolean<br/>
     Return `true` if it's possible to split the family members into two groups like Father wants, otherwise return `false`.
