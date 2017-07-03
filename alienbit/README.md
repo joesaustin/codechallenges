@@ -14,19 +14,13 @@ Example
 * __For__ `abit = "0.116101115116035049"`, the output should be
 `alienBit(abit) = "test#1"`.
 
-    The alien bit can be split into 6 ASCII symbols:
-
-    `116 -> 't'`
-    
-    `101 -> 'e'`
-    
-    `115 -> 's'`
-    
-    `116 -> 't'`
-    
-    `35 -> '#'`
-    
-    `49 -> '1'`
+    The alien bit can be split into 6 ASCII symbols:<br/>
+    `116 -> 't'`<br/>
+    `101 -> 'e'`<br/>
+    `115 -> 's'`<br/>
+    `116 -> 't'`<br/>
+    `35 -> '#'` <br/>
+    `49 -> '1'` <br/>
     
     Thus, this alien transmission contains the message "test#1".
 
@@ -38,10 +32,8 @@ Input/Output
 
     A string that represents a number between 0 and 1, with the number of decimal places divisible by 3.
 
-    Guaranteed constraints:
-    
+    Guaranteed constraints:<br/>
     `5 ≤ abit.length ≤ 1001.`
 
-* __[output]__ string
-
+* __[output]__ string <br/>
     A translated string of ASCII characters.
