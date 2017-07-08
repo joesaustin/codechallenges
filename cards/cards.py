@@ -8,5 +8,3 @@ def cards(n):
         deck.extend(map(lambda x: "{}{}".format(x, i), d))
     return deck[n]
 
-print cards(5)
-
