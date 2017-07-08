@@ -6,9 +6,9 @@ by removing some characters from it. You're a pro at programming, so you decided
 Example
 ----------
 
-For `s = "ceoydefthf5iyg5h5yts"` and `t = "codefights"`, the output should be
+* For `s = "ceoydefthf5iyg5h5yts"` and `t = "codefights"`, the output should be
 `convertString(s, t) = true`.
-For `s = "addbyca"` and `t = "abcd"`, the output should be
+* For `s = "addbyca"` and `t = "abcd"`, the output should be
 `convertString(s, t) = false`.
 
 Input/Output
