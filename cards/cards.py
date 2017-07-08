@@ -1,10 +1,12 @@
 def cards(n):
-    suits=["C","D","H","S"]
-    numbers=["2","3","4","5","6","7","8","9","0","J","Q","K","A"]
-    deck=[]
+    s = ["C","D","H","S"]
+    d = range(2,10)
+    d.extend(["0","J","Q","K","A"])
+    deck = []
 
-    for suit in suits:
-        for num in numbers:
-            deck.append("{}{}".format(num,suit))
-
+    for i in s:
+        deck.extend(map(lambda x: "{}{}".format(x, i), d))
     return deck[n]
+
+print cards(5)
+
