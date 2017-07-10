@@ -10,6 +10,6 @@ Input/Output
     String consisting only of lowercase English letters.
 
     Guaranteed constraints:
-    <br>`1 ≤ s.length ≤ 50'.
+    <br>`1 ≤ s.length ≤ 50`.
 
 * __[output] string__
