@@ -1,6 +1,6 @@
 Fermat's factorization method is:
 ==================================
-If `a · b = n`  (where `a ≤ b`), then there exist some c and d such that `n = c2 - d2`.
+If `a · b = n`  (where `a ≤ b`), then there exist some `c` and `d` such that `n = c2 - d2`.
 Your goal is to return for given n such c and d as an array.
 Since we want c and d to be uniquely determined, in all test cases n is a semiprime number.
 
